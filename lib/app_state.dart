@@ -21,5 +21,7 @@ class AppState {
   static void clearFoodInputs() {
     nameController.clear();
     qtyController.clear();
+    carbGoalController.clear();
+    fatGoalController.clear();
   }
 }

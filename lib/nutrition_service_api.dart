@@ -18,8 +18,9 @@ class NutritionServiceApi {
         }
       }
       return null; // Return null if nothing is found or error occurs
-    } catch (e) {
-      print("API Error: $e");
+    } 
+    
+    catch (e) {
       return null;
     }
   }
